@@ -1,0 +1,23 @@
+{
+  "name": "__MSG_extName__",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "description": "__MSG_extDesc__",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "default_locale": "en",
+
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_title": "__MSG_buttonTip__"
+  },
+
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "permissions": [
+  ]
+}

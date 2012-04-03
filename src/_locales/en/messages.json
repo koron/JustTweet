@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Just Tweet Button",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "Just tweet browsing site, without any other features",
+    "description": "Extension description."
+  },
+  "buttonTip": {
+    "message": "Just Tweet Now!",
+    "description": "Button tooltip."
+  }
+}
