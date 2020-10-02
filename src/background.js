@@ -5,7 +5,7 @@ function onClicked(tab) {
     + '&url=' + encodeURIComponent(tab.url);
   var w = screen.width / 2;
   var h = screen.height;
-  var x = (screen.width - w) / 2;
+  var x = screen.width / 2;
   var y = 0;
   window.open(url, null,
       'left='+x+',top='+y+',width='+w+',height='+h
