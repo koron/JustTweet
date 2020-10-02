@@ -1,5 +1,8 @@
 # Just Tweet Button
 
+Prefixとウインドウサイズを自分好みに改変しました。
+NowBrowsing: というprefixで画面の右半分に表示します。
+
 
 ## Publish
 
