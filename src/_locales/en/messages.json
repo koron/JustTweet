@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Just Tweet Button",
+    "message": "Just Tweet Button mod",
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Just tweet browsing site, without any other features",
+    "message": "Just tweet browsing site, without any other features.I modified the Prefix and window size to my liking. It is displayed in the right half of the screen with the prefix NowBrowsing :.",
     "description": "Extension description."
   },
   "buttonTip": {

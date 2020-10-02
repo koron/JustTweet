@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Just Tweet ボタン",
+    "message": "Just Tweet ボタン改",
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。",
+    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。Prefixとウインドウサイズを自分好みに改変しました。NowBrowsing: というprefixで画面の右半分に表示します。",
     "description": "Extension description."
   },
   "buttonTip": {
