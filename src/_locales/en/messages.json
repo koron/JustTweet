@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Just tweet browsing site, without any other features.I modified the Prefix and window size to my liking. It is displayed in the right half of the screen with the prefix NowBrowsing :.The prefix can be changed to any wording.",
+    "message": "Just tweet browsing site.I modified the Prefix and window size to my liking. It is displayed in the right half of the screen with the prefix NowBrowsing :.The prefix can be changed to any wording.",
     "description": "Extension description."
   },
   "buttonTip": {
