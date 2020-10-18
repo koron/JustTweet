@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。Prefixとウインドウサイズを自分好みに改変しました。NowBrowsing: というprefixで画面の右半分に表示します。prefixは任意の文言に変更出来ます。",
+    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。Prefixとウインドウサイズを自分好みに改変しました。",
     "description": "Extension description."
   },
   "buttonTip": {
