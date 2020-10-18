@@ -1,5 +1,9 @@
 function onClicked(tab) {
-  var prefix = 'NowBrowsing:'
+  var   prefix = localStorage['Prefix'];
+  if (prefix == null) {
+    prefix = 'NowBrowsing: ';
+}
+
   var url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(tab.url);
