@@ -7,5 +7,5 @@
 }
 document.getElementById('id_save').onclick = function() {
     localStorage.setItem('Prefix' , document.getElementById('id_prefix').value);
-    localStorage.setItem('position' , document.getElementById('window_position').value);
+    localStorage.setItem('position' , document.getElementById('id_position').value);
 }

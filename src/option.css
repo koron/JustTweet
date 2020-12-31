@@ -10,10 +10,11 @@
 }
 
 div{
-	width: 800px;
+	width: 700px;
 	padding: 10px;
 	margin-bottom: 10px;
 	border: 3px dashed #333333;
+	background-color: #aaaaaa;
 }
 
 textarea{
@@ -24,8 +25,6 @@ textarea{
 }
 
 table {
-	padding: 10px;
-	margin-bottom: 10px;
 	width: 700px;
   }
 
@@ -35,6 +34,7 @@ table {
 	border: 2px solid #333333;
 	border-collapse: collapse;
 	text-align:center;
+	background-color: #ffffff;
   }
 
   .c-button {
@@ -53,4 +53,4 @@ table {
   .c-button:hover {
 	background: #1d49aa;
   }
-   
+  
