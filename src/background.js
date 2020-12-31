@@ -1,9 +1,9 @@
 function onClicked(tab) {
   var prefix = localStorage.getItem('Prefix');
-  var position = localStorage.getItem('position');
   if (prefix == null) {
       prefix = 'NowBrowsing: ';
   }
+  var position = localStorage.getItem('position');
   if (position == null) {
       position = '1';
   }
