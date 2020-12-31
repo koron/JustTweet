@@ -5,10 +5,14 @@
     }
     document.getElementById('id_prefix').value = prefix;
 }
-
-// localStorage.removeItem('position');
-
 document.getElementById('id_save').onclick = function() {
     localStorage.setItem('Prefix' , document.getElementById('id_prefix').value);
-    localStorage.setItem('position' , document.getElementsByName('id_position').value);
+    var positions = document.getElementsByName("name_position");
+    for(var i = 0; i < positions.length; i++){
+        if(positions[i].checked) {
+            console.log("選択された値：", positions[i].value);
+            localStorage.setItem('position' ,positions[i].value);
+        }
+        console.log(positions[i].value);
+    }
 }
