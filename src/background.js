@@ -14,7 +14,7 @@ function onClicked(tab) {
 
 var h = screen.height;
 var y = 0;
-
+  
 switch (position) {
   case "1":// Right half
     var w = screen.width / 2;

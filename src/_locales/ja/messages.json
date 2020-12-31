@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。Prefixとウインドウサイズを自分好みに改変しました。",
+    "message": "今見ているサイトをつぶやくボタンです。Prefixとウインドウの表示位置を設定できるように改変しました。",
     "description": "Extension description."
   },
   "buttonTip": {
