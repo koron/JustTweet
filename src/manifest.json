@@ -23,7 +23,7 @@
   "options_page": "option.html",
 
   "permissions": [
-    "tabs",
+    "tabs"
   ]
 
 }
