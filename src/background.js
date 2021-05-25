@@ -8,6 +8,9 @@ function onClicked(tab) {
       position = '1';
   }
 
+  // add nikkei.com customize
+  var url = url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
+
   var url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(tab.url);
