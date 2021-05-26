@@ -9,11 +9,12 @@ function onClicked(tab) {
   }
 
   // add nikkei.com customize
-  var url = url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
+  var url_url = tab.url; 
+  var url_url = url_url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
 
   var url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
-    + '&url=' + encodeURIComponent(tab.url);
+    + '&url=' + encodeURIComponent(url_url);
 
 var h = screen.height;
 var y = 0;
