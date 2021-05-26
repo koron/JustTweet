@@ -2,7 +2,7 @@
 
 ## 更新履歴
 ### 2021/5/26 1.40 
-+ 日本経済新聞に対する考慮を追加しました。
++ 日本経済新聞(朝刊・夕刊)に対する考慮を追加しました。
 + 以下の通り、URLを置き換えます。
 + 置換前　https://www.nikkei.com/paper/article/〜
 + 置換後　https://www.nikkei.com/article/〜
