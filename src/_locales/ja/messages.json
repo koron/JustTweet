@@ -4,11 +4,11 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "今見ているサイトをつぶやくボタンです。Prefixとウインドウの表示位置を設定できるように改変しました。",
+    "message": "今見ているサイトをつぶやくボタンです。オプション設定で固定文言(Prefix)とウインドウの表示位置を変更できます。",
     "description": "Extension description."
   },
   "buttonTip": {
-    "message": "Just Tweet Now!",
+    "message": "Just Tweet Now mod!",
     "description": "Button tooltip."
   }
 }

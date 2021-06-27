@@ -1,66 +1,68 @@
 function onClicked(tab) {
-  var prefix = localStorage.getItem('Prefix');
+  let prefix = localStorage.getItem('Prefix');
   if (prefix == null) {
       prefix = 'NowBrowsing: ';
   }
-  var position = localStorage.getItem('position');
+  let position = localStorage.getItem('position');
   if (position == null) {
       position = '1';
   }
 
   // add nikkei.com customize
-  var url_url = tab.url; 
-  var url_url = url_url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
+  let url_url = tab.url; 
+  url_url = url_url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
 
-  var url = 'https://twitter.com/intent/tweet?'
+  let url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(url_url);
 
-var h = screen.height;
-var y = 0;
+let h = screen.height;
+let y = 0;
+let w ;
+let x ;
   
 switch (position) {
   case "1":// Right half
-    var w = screen.width / 2;
-    var x = screen.width / 2;
+    w = screen.width / 2;
+    x = screen.width / 2;
     break;
   case "2":// Left half
-    var w = screen.width / 2;
-    var x = 0;
+    w = screen.width / 2;
+    x = 0;
     break;
   case "3":// 3/3 Right
-    var w = screen.width / 3;
-    var x = screen.width / 3 * 2;
+    w = screen.width / 3;
+    x = screen.width / 3 * 2;
     break;
   case "4":// 2/3 Centre 
-    var w = screen.width / 3;
-    var x = screen.width / 3;
+    w = screen.width / 3;
+    x = screen.width / 3;
     break;
   case "5":// 1/3 Left
-    var w = screen.width / 3;
-    var x = 0;
+    w = screen.width / 3;
+    x = 0;
     break;
   case "6":// 4/4 Right
-    var w = screen.width / 4;
-    var x = screen.width / 4 * 3;
+    w = screen.width / 4;
+    x = screen.width / 4 * 3;
     break;
   case "7":// 3/4 Right
-    var w = screen.width / 4;
-    var x = screen.width / 4 * 2;
+    w = screen.width / 4;
+    x = screen.width / 4 * 2;
     break;
   case "8":// 2/4 Left
-    var w = screen.width / 4;
-    var x = screen.width / 4;
+    w = screen.width / 4;
+    x = screen.width / 4;
     break;
   case "9":// 1/4 Left
-    var w = screen.width / 4;
-    var x = 0;
+    w = screen.width / 4;
+    x = 0;
     break;
     case "0":// centre(Original)
-    var w = 640;
-    var h = 360;
-    var x = (screen.width - w) / 2;
-    var y = (screen.height - h) / 2;
+    w = 640;
+    h = 360;
+    x = (screen.width - w) / 2;
+    y = (screen.height - h) / 2;
     break;
   }
 
