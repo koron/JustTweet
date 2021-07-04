@@ -8,9 +8,13 @@ function onClicked(tab) {
       position = '1';
   }
 
+  let url_url = tab.url;
+
   // add nikkei.com customize
-  let url_url = tab.url; 
   url_url = url_url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
+
+  // UTM remove
+  url_url = url_url.replace(/\?.*$/,'')
 
   let url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
