@@ -15,7 +15,7 @@ function onClicked(tab) {
 
   // UTM remove
   if (url_url.match("youtube.com"))
-  { console.log ("youtube")} 
+  ; 
   else {   
   url_url = url_url.replace(/\?.*$/,'')
 }
@@ -81,5 +81,3 @@ switch (position) {
 chrome.browserAction.onClicked.addListener(onClicked);
 
 // vim:set ts=8 sts=2 sw=2 tw=0 et:
-
-console.log(localStorage)
