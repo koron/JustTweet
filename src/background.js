@@ -14,8 +14,11 @@ function onClicked(tab) {
   url_url = url_url.replace(/https:\/\/www\.nikkei\.com\/paper\/article\/\?.*\=/,'https:\/\/www\.nikkei\.com\/article\/')
 
   // UTM remove
+  if (url_url.match("youtube.com"))
+  ; 
+  else {   
   url_url = url_url.replace(/\?.*$/,'')
-
+}
   let url = 'https://twitter.com/intent/tweet?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(url_url);
@@ -78,5 +81,3 @@ switch (position) {
 chrome.browserAction.onClicked.addListener(onClicked);
 
 // vim:set ts=8 sts=2 sw=2 tw=0 et:
-
-console.log(localStorage)
