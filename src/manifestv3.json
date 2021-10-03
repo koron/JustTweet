@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "2.0",
+
+  "default_locale": "en",
+  "description": "__MSG_extDesc__",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_title": "__MSG_buttonTip__"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+}
