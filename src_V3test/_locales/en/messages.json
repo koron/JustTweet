@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Just Tweet Button mod",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "Just tweet browsing site.You can change the Prefix and window size.",
+    "description": "Extension description."
+  },
+  "buttonTip": {
+    "message": "Just Tweet Now mod!",
+    "description": "Button tooltip."
+  }
+}

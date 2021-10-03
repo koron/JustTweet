@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Just Tweet ボタン改",
+    "description": "Extension name."
+  },
+  "extDesc": {
+    "message": "今見ているサイトをつぶやくボタンです。オプション設定で固定文言(Prefix)とウインドウの表示位置を変更できます。",
+    "description": "Extension description."
+  },
+  "buttonTip": {
+    "message": "Just Tweet Now mod!",
+    "description": "Button tooltip."
+  }
+}
