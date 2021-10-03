@@ -4,11 +4,11 @@
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "今見ているサイトをつぶやくだけの、余計な機能は一切ないボタンです。Prefixとウインドウサイズを自分好みに改変しました。NowBrowsing: というprefixで画面の右半分に表示します。",
+    "message": "今見ているサイトをつぶやくボタンです。オプション設定で固定文言(Prefix)とウインドウの表示位置を変更できます。",
     "description": "Extension description."
   },
   "buttonTip": {
-    "message": "Just Tweet Now!",
+    "message": "Just Tweet Now mod!",
     "description": "Button tooltip."
   }
 }
